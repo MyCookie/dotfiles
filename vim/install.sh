@@ -2,7 +2,7 @@
 # simple script to grab vim plugins and install them
 
 echo "cloning vim-pathogen"
-https://github.com/tpope/vim-pathogen
+git clone https://github.com/tpope/vim-pathogen
 echo "creating folder autoload"
 mkdir autoload
 echo "moving pathogen to autoload"
