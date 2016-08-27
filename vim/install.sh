@@ -33,6 +33,10 @@ echo "cloning vim-colors-solarized"
 git clone https://github.com/altercation/vim-colors-solarized
 echo "cloning vim-surround"
 git clone https://github.com/tpope/vim-surround
+echo "cloning jedi-vim"
+git clone https://github.com/davidhalter/jedi-vim
+echo "cloning tagbar"
+git clone https://github.com/majutsushi/tagbar
 
 echo "leaving bundle"
 cd ..

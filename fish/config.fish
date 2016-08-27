@@ -1,6 +1,7 @@
 set fish_greeting ""
 
 set -gx EDITOR vim
+set -gx PATH $HOME/.local/bin $PATH
 
 # name: nai
 # Display the following bits on the left:
