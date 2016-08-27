@@ -63,7 +63,7 @@ set formatoptions=c,q,r,t " This is a sequence of letters which describes how
                     " t         Auto-wrap text using textwidth (does not apply
                     "           to comments)
 
-"set ruler           " Show the line and column number of the cursor position,
+set ruler           " Show the line and column number of the cursor position,
                     " separated by a comma.
 
 set background=dark " When set to "dark", Vim will try to use colors that look
@@ -77,8 +77,6 @@ set wildmenu        " Autocomplete command line
 
 set cursorline      " Highlight current line
 
-set relativenumber  " Relative line numbers
-
 set laststatus=2    " Always show statusline
 
 filetype plugin indent on
@@ -86,9 +84,5 @@ syntax on
 
 execute pathogen#infect()
 
-colorscheme solarized
-
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 let g:airline#extensions#tabline#enabled = 1
-
-let g:neocomplete#enable_at_startup = 1
